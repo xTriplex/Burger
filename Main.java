@@ -18,5 +18,6 @@ public class Main {
         DeluxeBurger deluxeBurger = new DeluxeBurger();
         deluxeBurger.itemizeBurger();
         deluxeBurger.addBurgerItem1("Test", 73.57); // Test
+        System.out.println("\nTotal deluxe burger price is: " + deluxeBurger.itemizeBurger() + "\n");
     }
 }
