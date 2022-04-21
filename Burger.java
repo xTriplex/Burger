@@ -40,22 +40,22 @@ public class Burger {
 
         if(this.item1Name != null) {
             burgerPrice += this.item1Price;
-            System.out.println("Added " + this.item1Name + " for " + this.item1Price);
+            System.out.println("Added " + this.item1Name + " for: " + this.item1Price);
         }
 
         if(this.item2Name != null) {
             burgerPrice += this.item2Price;
-            System.out.println("Added " + this.item2Name + " for " + this.item2Price);
+            System.out.println("Added " + this.item2Name + " for: " + this.item2Price);
         }
 
         if(this.item3Name != null) {
             burgerPrice += this.item3Price;
-            System.out.println("Added " + this.item3Name + " for " + this.item3Price);
+            System.out.println("Added " + this.item3Name + " for: " + this.item3Price);
         }
 
         if(this.item4Name != null) {
             burgerPrice += this.item4Price;
-            System.out.println("Added " + this.item4Name + " for " + this.item4Price);
+            System.out.println("Added " + this.item4Name + " for: " + this.item4Price);
         }
         return burgerPrice;
     }
