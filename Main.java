@@ -16,8 +16,7 @@ public class Main {
         System.out.println("\nTotal healthy burger price is: " + healthyBurger.itemizeBurger() + "\n");
 
         DeluxeBurger deluxeBurger = new DeluxeBurger();
-        deluxeBurger.itemizeBurger();
-        deluxeBurger.addBurgerItem1("Test", 73.57); // Test
         System.out.println("\nTotal deluxe burger price is: " + deluxeBurger.itemizeBurger() + "\n");
+        deluxeBurger.addBurgerItem1("Test", 73.57); // Test
     }
 }
