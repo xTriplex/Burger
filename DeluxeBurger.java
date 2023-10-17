@@ -15,12 +15,12 @@ public class DeluxeBurger extends Burger{
 
     @Override
     public void addBurgerItem2(String name, double price) {
-        System.out.println("Additional items(s) is not available for deluxe burger.");
+        System.out.println("Additional item(s) is not available for deluxe burger.");
     }
 
     @Override
     public void addBurgerItem3(String name, double price) {
-        System.out.println("Additional items(s) is not available for deluxe burger.");
+        System.out.println("Additional item(s) is not available for deluxe burger.");
     }
 
     @Override
